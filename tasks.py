@@ -24,3 +24,19 @@
 # year = roman_nums(year)
 
 # print(f"{day}.{month}.{year}")
+
+# --------------------------------------------
+
+n = int(input("Enter a number : "))
+steps = 0
+
+while n >= 0:
+
+    if n % 2 == 0:
+        n = n / 2
+        steps += 1
+    elif n % 2 != 0:
+        n = n - 1
+        steps += 1
+
+print(steps)
