@@ -27,16 +27,58 @@
 
 # --------------------------------------------
 
-n = int(input("Enter a number : "))
-steps = 0
+# n = int(input("Enter a number : "))
+# steps = 0
 
-while n >= 0:
+# while n >= 0:
 
-    if n % 2 == 0:
-        n = n / 2
-        steps += 1
-    elif n % 2 != 0:
-        n = n - 1
-        steps += 1
+#     if n % 2 == 0:
+#         n = n / 2
+#         steps += 1
+#     elif n % 2 != 0:
+#         n = n - 1
+#         steps += 1
 
-print(steps)
+# print(steps)
+
+# user1 = int(input("Enter first number : "))
+# user2 = int(input("Enter second number : "))
+
+# def sum():
+#     print(user1 + user2
+
+# sum()
+
+# user_input = int(input("Enter a number : "))
+
+# def num():
+#     if user_input % 2 == 0:
+#         print("The number you entered is an even number :)")
+#     else:
+#         print("The number entered is not an even number. Try again :(")
+
+# num()
+
+# user_want = input("What do you want to buy ( Cap, T-Shirt, Trousers) : ")
+
+# balance = 200
+
+# storeage = {
+#     "Cap": 5,
+#     "T-Shirt": 20,
+#     "Trousers": 30
+# }
+
+# price = {
+#     "Cap": 4,
+#     "T-Shirt": 25,
+#     "Trousers": 52
+# }
+
+# if user_want in storeage:
+#     user_number = int(input("How many do you want : "))
+# elif user_want 
+# elif user_number > storeage["Cap"] or storeage["T-Shirt"] or storeage["Trousers"]:
+#     print("We haven't enough you want !")
+# else:
+#     print("The clothes you entered is not aviable!")

@@ -108,3 +108,21 @@
 
 # Task - 22
 
+from random import randint
+
+n = randint(1, 20)
+steps = 0
+
+while True:
+    user_input = int(input("Enter a number between 1 - 20 : "))
+    steps += 1
+
+    if user_input < n:
+        print("Go a little bit upper !")
+    elif user_input > n:
+        print("Go a little bit lower !")
+    else:
+        print("Correct! You find this random number :)")
+        break
+
+print(steps)
