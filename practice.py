@@ -12,25 +12,3 @@ while True:
         break
     else:
         print("Try again !!!")
-
-    # elif user_input == "qwerty":
-    #     print("You signed up !")
-    # elif user_input == "john":
-    #     print("You signed up !")
-    # elif user_input == "pass":
-    #     print("You signed up !")
-    # else:
-    #     print("Try again !!!")
-
-
-
-
-
-
-
-
-    # if user_input == "bob" or user_input == "" or user_input == "john" or user_input == "pass":
-    #     
-    # else:
-    #     print("Try again !!!")
-    #     steps += 1
