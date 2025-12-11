@@ -108,21 +108,38 @@
 
 # Task - 22
 
-from random import randint
+# from random import randint
 
-n = randint(1, 20)
-steps = 0
+# n = randint(1, 20)
+# steps = 0
 
-while True:
-    user_input = int(input("Enter a number between 1 - 20 : "))
-    steps += 1
+# while True:
+#     user_input = int(input("Enter a number between 1 - 20 : "))
+#     steps += 1
 
-    if user_input < n:
-        print("Go a little bit upper !")
-    elif user_input > n:
-        print("Go a little bit lower !")
+#     if user_input < n:
+#         print("Go a little bit upper !")
+#     elif user_input > n:
+#         print("Go a little bit lower !")
+#     else:
+#         print("Correct! You find this random number :)")
+#         break
+
+# print(steps)
+
+# Task - 23
+
+import random as rn
+
+user_balace = rn.randint(1000, 10000)
+print(f"Your balanca : {user_balace}")
+
+user_want = int(input("How many money do you want ( 1000 - 10000 ) : "))
+def bank():
+    if user_want <= user_balace:
+        user_balace -= user_balace
+        print(f"You taked : {user_want}")
     else:
-        print("Correct! You find this random number :)")
-        break
+        print("You have not enough money ❌")
 
-print(steps)
+bank()
