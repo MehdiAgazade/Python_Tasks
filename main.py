@@ -51,63 +51,18 @@
 
 # Task - 11
 
-dict = {
-    "dog": "hav hav hav",
-    "cat": "miav miav miav",
-    "bee": "vizz vizz vizz",
-    "bird": "cik cik cik",
-    "horse": "I-ihiiiii",
-    "snake": "Ss sss sss",
-    "spider": "Cigss cigss cigss"
-}
+# dict = {
+#     "dog": "hav hav hav",
+#     "cat": "miav miav miav",
+#     "bee": "vizz vizz vizz",
+#     "bird": "cik cik cik",
+#     "horse": "I-ihiiiii",
+#     "snake": "Ss sss sss",
+#     "spider": "Cigss cigss cigss"
+# }
 
-user_choose = input("Enter a animal name : ").lower()
-steps = 0
-
-while True:
-    if user_choose == "dog":
-        print("Hav hav hav")
-        steps += 1
-        break
-    elif user_choose == "cat":
-        print("Miav miav miav")
-        steps += 1
-        break
-    elif user_choose == "bee":
-        print("Vizz vizz vizz")
-        steps += 1
-        break
-    elif user_choose == "bird":
-        print("Cik cik cik")
-        steps += 1
-        break
-    elif user_choose == "horse":
-        print("I-ihiiiii")  
-        steps += 1
-        break
-    elif user_choose == "snake":
-        print("Sss Sss Sss")
-        steps += 1
-        break
-    elif user_choose == "spider":
-        print("Cigss cigss cigss")
-        steps += 1
-        break
-    else:
-        print("The animal name you writed is not enable. Try again !!!")
-
-
-
-
-
-
-
-
-# dict = ["dog", "cat", "bee", "bird", "horse", "snake", "spider"]
-
-# user_choose = input("Write a animal name : ").lower()
+# user_choose = input("Enter a animal name : ").lower()
 # steps = 0
-
 
 # while True:
 #     if user_choose == "dog":
@@ -131,7 +86,7 @@ while True:
 #         steps += 1
 #         break
 #     elif user_choose == "snake":
-#         print("Siii Siii Siii")
+#         print("Sss Sss Sss")
 #         steps += 1
 #         break
 #     elif user_choose == "spider":
@@ -140,3 +95,20 @@ while True:
 #         break
 #     else:
 #         print("The animal name you writed is not enable. Try again !!!")
+
+# def user():
+#     while True:
+#         user_input = input("Enter a number : ")
+
+#         if user_input.isdigit():
+#             count = 0
+
+#             for i in user_input:
+#                 count += int(i) ** 2
+                
+#             print(count)
+#             break
+#         else:
+#             print("Try again !!!")
+
+# user()
