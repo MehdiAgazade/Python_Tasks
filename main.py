@@ -112,3 +112,51 @@
 #             print("Try again !!!")
 
 # user()
+
+# Task - 12
+
+# try:
+#     user1 = int(input("Enter the first number : "))
+#     user2 = int(input("Enter the second number : "))
+
+#     result = user1 / user2
+#     print(result)
+# except ZeroDivisionError:
+#     print("Error: Cannot divide by 0! Please try again")
+
+# Task - 13
+
+# try:
+#     user_input = input("Enter a word : ")
+#     int(user_input)
+#     print("The input you entered is not a word. Try again !!!")
+# except ValueError:
+#     print("It's True. Perfect")
+    
+# Task - 14
+
+# try:
+#     f = open("Write.txt", "w")
+#     f.write("Salam Mellim")
+#     f = open("Write.txt", "r")
+#     print(f.read())
+# except Exception as r:
+#     print("Error 404", r)
+# finally:
+#     f.close()
+#     print("It's over")
+
+# Task - 15
+
+# key_dict = {
+#     "key1" : 2010,
+#     "key2" : 2015,
+#     "key3" : 1031,
+#     "key4" : 2231
+# }
+
+# try:
+#     user_input = input("Enter the true key for the value : ").lower()
+#     print(key_dict[user_input])
+# except KeyError:
+#     print("You entered the False key. Try again !!!")

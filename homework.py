@@ -129,17 +129,58 @@
 
 # Task - 23
 
-import random as rn
+# import random as rn
 
-user_balace = rn.randint(1000, 10000)
-print(f"Your balanca : {user_balace}")
+# user_balace = rn.randint(1000, 10000)
+# print(f"Your balanca : {user_balace}")
 
-user_want = int(input("How many money do you want ( 1000 - 10000 ) : "))
-def bank():
-    if user_want <= user_balace:
-        user_balace -= user_balace
-        print(f"You taked : {user_want}")
+# user_want = int(input("How many money do you want ( 1000 - 10000 ) : "))
+# def bank():
+#     if user_want <= user_balace:
+#         user_balace -= user_balace
+#         print(f"You taked : {user_want}")
+#     else:
+#         print("You have not enough money ❌")
+
+# bank()
+
+""" *** RandomCode *** """
+
+# import random as rn
+
+# values = "QWERTYUIOOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm`~!@#$%^&*()-_=+[];:'<,.>/?123456789"
+# user_code = []
+
+# # while True:
+# for _ in range(16):
+#     user_code.append(rn.choice(values))
+#     print(user_code)
+     
+#     password = ''.join(user_code)
+#     print(password)
+
+brand = [
+    {"Brand" : "Samsung", "Count" : 12, "Price" : 2111},
+    {"Brand" : "Xiaomi", "Count" : 15, "Price" : 547},
+    {"Brand" : "Apple", "Count" : 52, "Price" : 3453},
+    {"Brand" : "Texno", "Count" : 21, "Price" : 543},
+    {"Brand" : "Nokia", "Count" : 3, "Price" : 52},
+    {"Brand" : "Huawei", "Count" : 32, "Price" : 130},
+    {"Brand" : "Oppo", "Count" : 52, "Price" : 1300},
+    {"Brand" : "Vivo", "Count" : 30, "Price" : 706},
+    {"Brand" : "Realme", "Count" : 22, "Price" : 867},
+    {"Brand" : "Honor", "Count" : 65, "Price" : 1452},
+]
+
+user_basket = []
+
+user_input = int(input("Enter a phone brand 0 - 9 : "))
+
+def basket():
+    if 0 <= user_input <= 9:
+        print(brand[user_input])
+        print(user_basket + brand[user_input])
     else:
-        print("You have not enough money ❌")
+        print("The number you entered is not invalid ❌ Try Again !")
 
-bank()
+basket()
